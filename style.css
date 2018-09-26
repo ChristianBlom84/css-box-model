@@ -55,14 +55,15 @@ nav > ul > li > a {
 }
 
 .wrapper {
-    width: 100%;
-    margin: 20px 0 0;
+    float: left;
+    width: calc(80% - 20px);
+    margin: 20px 20px 0 0;
 }
 
 .first,
 .second {
     float: left;
-    width: calc(80% - 20px);
+    width: 100%;
     background-color: sandybrown;
     margin-right: 20px;
     height: 190px;
@@ -79,12 +80,12 @@ nav > ul > li > a {
 }
 
 .widget {
-    float: right;
     width: 20%;
     background-color: lightgray;
     height: 400px;
     overflow: hidden;
     padding: 1em;
+    margin: 20px 0 0;
 }
 
 footer {
