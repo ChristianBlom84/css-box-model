@@ -75,6 +75,10 @@
 .row-box {
   position: relative;
 }
+
+.row.row-box {
+    height: 100%;
+}
 /* Pernillas kod */
 
 .row:before,
